@@ -1,25 +1,4 @@
 function wigb (a,scal,x,z,amx)
-%WIGB: Plot seismic data using wiggles.
-%
-%  WIGB(a,scal,x,z,amx) 
-%
-%  IN    a:     seismic data
-%        scale: multiple data by scale
-%        x:     x-axis;
-%        z:     vertical axis (time or depth)
-%
-%	 If only 'a' is enter, 'scal,x,z,amn,amx' are decided automatically; 
-%	 otherwise, 'scal' is a scalar; 'x, z' are vectors for annotation in 
-%	 offset and time, amx are the amplitude range.
-%
-%
-%  Author(s): Xingong Li (Exxon-Mobil)
-%  Copyright 1998-2003 Xingong 
-%  Revision: 1.2  Date: Dec/2002 
-%  
-%  Signal Analysis and Imaging Group (SAIG)
-%  Department of Physics, UofA
-%
 
 if nargin == 0, nx=10;nz=10; a = rand(nz,nx)-0.5; end
 
